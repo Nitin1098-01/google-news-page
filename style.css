@@ -1,0 +1,143 @@
+
+        /* * {
+        outline: 2px solid red;
+    } */
+    @media (min-width: 992px) {
+        .articles img {
+            max-width: 10%;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .articles img {
+            max-width: 10%;
+        }
+    }
+
+    @media (max-width: 1023px) {
+        .side-nav {
+            display: none;
+        }
+    }
+
+    hr {
+        border: 0;
+        clear: both;
+        display: block;
+        width: 90%;
+        background-color: darkgray;
+        height: 1px;
+    }
+
+    .main-container {
+        margin: 24px;
+        display: flex;
+    }
+
+    .side-nav {
+        flex-grow: 1;
+        width: 100px;
+    }
+
+
+    .main-news-section {
+        flex-grow: 2;
+        width: 100px;
+    }
+
+    .right-side {
+        flex-grow: 1;
+        width: 100px;
+    }
+
+    .weather {
+        padding: 16px;
+        border: 1px solid rgb(187, 187, 187);
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .weather .title {
+        flex: 1;
+    }
+
+    .weather .title h3 {
+        display: inline;
+        color: rgb(66, 66, 66);
+        font-size: 18px;
+        font-family: Poppins, sans-serif;
+
+    }
+
+    .weather .title img {
+        float: right;
+    }
+
+    .articles {
+        max-width: 100%;
+    }
+
+    .articles img {
+        border-radius: 20px;
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .time {
+        font-size: 13px;
+        color: gray;
+    }
+
+    #Tops {
+        box-shadow: 0px 2px 5px gray;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: blue;
+    }
+
+    .navbar-collapse.collapse.show {
+        max-height: 280px;
+        overflow-y: auto;
+    }
+
+    input[type="text"]:focus {
+        outline: none;
+        box-shadow: none;
+        border: none;
+    }
+
+    .navbar-toggler {
+        border: none;
+    }
+
+    .temp {
+        display: flex;
+    }
+
+    .temp-value {
+        flex: 2;
+        outline: 2px solid yellow;
+    }
+
+    .weather-icon img{
+        flex: 1;
+        outline: 2px solid yellow;
+        align-content: flex-end;
+    }
+    
+
+
+    /*#collapsibleNavbar,
+    .collapse,
+    .navbar-collapse {
+        max-width: 280px;
+        overflow-x: auto;
+    }*/
+    /*
+    i.nav-item.fas.fa-search:hover {
+        color: blue;
+    }
+    */
+
